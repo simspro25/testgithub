@@ -1,0 +1,48 @@
+-----------array-----------------------
+var ourArray = ["john",23]  // we can use any datatypes
+console.log(ourArray);
+
+var ourArray = [["john",23] ["marco",25]]    //nested array
+console.log(ourArray);
+
+var ourArray = [10,20,30]            //acces array with index
+var positionzero = ourArray[0];
+console.log(positionzero);
+
+var ourArray = [10,20,30]     //use index to modify an array
+ourArray[1]= 15;
+console.log(ourArray);
+
+var myArray = [[1,2,3],[4,5,6],[7,8,9],[10,11,12],13,14]  //multi-dimentional array answer is 8
+var myData = myArray [2][1];
+console.log(myData);
+
+var myArray = [1,2,3]         //adding element at the end of the array
+myArray.push(["simone",6])
+console.log(myArray)
+
+var myArray = [1,2,3,4,5,6]   // remove element at the end of the array
+myArray.pop();
+console.log(myArray);
+
+var myArray = [1,2,3,4,5,6]    // remove the first element of the array
+myArray.shift();
+console.log(myArray);
+
+var myArray = [2,3,4,5,6]     // add element in front of the array
+myArray.unshift(1);
+console.log(myArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

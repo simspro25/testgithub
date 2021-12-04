@@ -1,0 +1,60 @@
+-----------variable-------------
+ var a; // declare variable
+
+var MyName = "simone" // initialize variables
+console.log(MyName)
+
+var a = 5;
+a = a+1;
+console.log(a)
+
+var sum = 10+10; // for minus(-) for product (*) for quotient(/)
+console.log(sum)
+
+var myVar = 10; // incremente
+myVar = myVar + 1;
+console.log(myVar)
+or
+var myVar = 10;
+myVar ++;
+console.log(myVar)
+
+var remainder;   // remainder 
+remainder = 11 % 3;
+console.log(remainder)
+-------------string-----------------
+var myStr =" FirstLine\n\t\\SecondLine \nThirdLine"
+console.log(myStr)
+
+var myStr ="my name is " +"simone"  //string concatenate put the space after the first string
+console.log(myStr)
+or
+var myStr ="my name is "
+myStr+="simone"
+console.log(myStr)
+
+var firstNameLenght = 0; // lenft of the string
+var firstName = "simone"
+firstNameLenght = name.lenght;
+console.log(firstNameLenght);
+
+var firstLetter = " ";// find the first letter of a string
+var name = "simone";
+firstLetter = name[0];
+console.log(firstLetter);
+
+var firstName = "simone"                                //find the third letter of name
+var thirdLetterOfName= firstName[firstName.length-3];
+console.log(thirdLetterOfName);
+
+
+
+
+
+
+
+
+
+
+
+
